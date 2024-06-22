@@ -5,12 +5,11 @@ body {
     margin: 0;
     padding: 0;
     background-color: #f8f9fa;
-   
 }
 
 h2.h2 {
     text-align: center;
-    color: #343a40;
+    color: #0056b3;
     margin-top: 20px;
     font-size: 2em;
 }
@@ -21,6 +20,7 @@ ul.ul {
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
+    margin: 0;
 }
 
 ul.ul li {
@@ -32,7 +32,7 @@ ul.ul li {
     text-align: center;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     transition: transform 0.3s, box-shadow 0.3s;
-    width: 200px;
+    width: 250px;
 }
 
 ul.ul li:hover {
@@ -61,7 +61,8 @@ button.p {
 button.p:hover {
     background-color: #0056b3;
 }
-.h2{
-    text-align: center;
-    color: #0056b3;
+
+audio.controls {
+    margin-top: 10px;
+    width: 100%;
 }
